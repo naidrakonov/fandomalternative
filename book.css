@@ -1,0 +1,33 @@
+.book {
+	font-family: Arial, sans-serif;
+	padding: 0 25%;
+	min-width: 31.25em;
+}
+
+/* КАРТИНКА ======================================== */
+
+.book-img {
+	margin: 0 0 0.5em 0;
+	max-width: 100%;
+}
+
+/* КАРТИНКА ======================================== */
+
+.book-color-div {
+	margin: 0 0 0.5em 0;
+	padding: 0.5em;
+	background-color: #f1f1f1;
+	color: #000000;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+/* АДАПТИВНЫЙ РЕЖИМ ======================================== */
+
+@media (max-width: 800px) {
+
+.book {
+	padding: 0.5em;
+}
+
+}
